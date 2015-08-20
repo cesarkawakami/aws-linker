@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>AWS Linker</title>
+    <style>
+        body {
+            font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+            font-size: 100%;
+            width: 400px;
+            height: 400px;
+            overflow: scroll;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #errors {
+            white-space: pre-wrap;
+            color: red;
+        }
+
+        #errors-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>AWS Links</h3>
+    <pre id=links></pre>
+
+    <div id=errors-container class="hidden">
+        <h3>Error messages</h3>
+        <pre id=errors></pre>
+    </div>
+
+    <script src="vendor/aws-sdk-2.1.45.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

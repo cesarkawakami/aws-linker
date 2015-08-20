@@ -1,0 +1,17 @@
+{
+  "name": "aws-linker",
+  "version": "0.1",
+  "homepage": "https://github.com/cesarkawakami/aws-linker",
+  "authors": [
+    "Cesar Kawakami <cesarkawakami@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
